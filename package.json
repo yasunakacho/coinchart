@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "start": "node server/express-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -24,6 +24,7 @@
     "d3-array": "^1.2.0",
     "d3-format": "^1.2.0",
     "d3-time-format": "^2.0.5",
+    "express": "^4.16.2",
     "isomorphic-fetch": "^2.2.1",
     "next": "^3.0.1-beta.20",
     "react": "^16.1.0",
